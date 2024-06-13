@@ -1,8 +1,15 @@
-Aim: This programs main aim is to create a Token
-Description: There are a few steps which we would be following in this program to create a token and even burn it:
-1.We will have public vriables to store details about our coin.
-2.We will have maaping addresses to balances.
-3.We will have a mint function which will furthur have two paramaters:an address and a value.The function then increases the total supply by that number and increases the balance of the address by that amount
-4.Our contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. It will take an address and value just like the mint functions. It will then deduct the value from the total supply and from the balance of the address.
-5.Lastly, Our burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
-Compiler: We can run this code on remix etherium,org
+Project Title: Create a Token
+Description: We are going to create a token using the programming language Solidity in which we are first creating a contract followed by public variables.
+Then we are going to mapp the address with a totalsupply variable which has been distinguished before,This would be used to map the balances.
+Then we are going to create a mint function to mint our token where we would pass the address and values as parameters.
+Then we are going to burn the function using a burn function.
+Getting Started:
+Installing:
+1. We can run this code on remix.ethereum.org.
+2.Then we are goiung to create a new file naming it with a .sol extension.This can be done using the file explorer option on top left hand side in our remix ethereum application and creating a new file/folder.
+3.Then we are going to click on Solidity compiler to compile our code and to run it.
+4.We also have to deploy the code by clicking on the option deploy and run transaction to deploy our tokens and also to burn them.
+Authors:
+Akash Pandey
+akash20040720@gmail.com
+
